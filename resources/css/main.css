@@ -1,0 +1,17 @@
+.table-with-actions .actions-cell a,
+.table-with-actions .actions-cell button {
+    visibility: hidden;
+}
+
+.table-with-actions tr:hover .actions-cell a,
+.table-with-actions tr:hover .actions-cell button {
+    visibility: visible;
+}
+
+.table-with-actions td {
+    vertical-align: middle;
+}
+
+.tox {
+    width: 100%;
+}
